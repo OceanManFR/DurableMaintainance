@@ -2,4 +2,4 @@
 
 This is a mod for **The Long Dark** by Hinterland Games Studio, Inc.
 
-It increases the durability of whetstones and firearm cleaning kits by reducing the wear to 1% per use.
+Based on WulfMarius' <a href="https://github.com/WulfMarius/Durable-Whetstone">Durable-Whetstone</a>, this mod increases the durability of whetstones and firearm cleaning kits by reducing the wear to an adjustable 1-10% per use, making the game more/less difficult depending on your preference. Settings are only changeable through the main menu, <b>NOT</b> the in-game menu.
