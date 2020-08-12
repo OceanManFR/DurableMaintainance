@@ -23,7 +23,7 @@ namespace DurableMaintainance
         public static void OnLoad()
         {
             options = new DurableMaintainanceSettings();
-            options.AddToModSettings("Durable Maintainance", MenuType.MainMenuOnly);
+            options.AddToModSettings("Durable Maintainance", MenuType.Both);
         }
     }
 }

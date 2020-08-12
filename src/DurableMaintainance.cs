@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Reflection;
+﻿using System.Reflection;
 using UnityEngine;
 using MelonLoader;
 
@@ -7,7 +6,6 @@ namespace DurableMaintainance
 {
     public class DurableMaintainance : MelonMod
     {
-        private const string NAME = "DurableMaintainance";
         public override void OnApplicationStart()
         {
             Debug.Log("[durable-maintainance] Version " + Assembly.GetExecutingAssembly().GetName().Version);
