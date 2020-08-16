@@ -10,8 +10,10 @@ namespace DurableMaintainance
         {
             GameObject go = __instance.gameObject;
             if (go == null) { return; }
-            if (go.name == "GEAR_SharpeningStone") { DurableMaintainance.AdjustDegradeOnUse(go, Settings.options.whetPct); }
-            if (go.name == "GEAR_RifleCleaningKit") { DurableMaintainance.AdjustDegradeOnUse(go, Settings.options.gunPct); }
+            if (go.name == "GEAR_RifleCleaningKit") { DurableMaintainance.AdjustDegradeOnUse(go, Settings.options.firearmCleaningKitPCT); }
+            if (go.name == "GEAR_SharpeningStone") { DurableMaintainance.AdjustDegradeOnUse(go, Settings.options.whetstonePCT); }
+            if (go.name == "GEAR_SewingKit") { DurableMaintainance.AdjustDegradeOnUse(go, Settings.options.sewingKitPCT); }
+            if (go.name == "GEAR_HookAndLine") { DurableMaintainance.AdjustDegradeOnUse(go, Settings.options.fishingTacklePCT); }
         }
     }
 }

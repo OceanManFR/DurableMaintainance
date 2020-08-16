@@ -14,10 +14,7 @@ namespace DurableMaintainance
         internal static void AdjustDegradeOnUse(GameObject gameObject, float value)
         {
             DegradeOnUse degradeOnUse = gameObject.GetComponent<DegradeOnUse>();
-            if (degradeOnUse == null)
-            {
-                return;
-            }
+            if (degradeOnUse == null) { return; }
             degradeOnUse.m_DegradeHP = value;
         }
     }
