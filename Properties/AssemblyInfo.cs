@@ -13,5 +13,5 @@ using MelonLoader;
 [assembly: Guid("4ab2f3b5-23d7-4b14-9d08-84e39f1858fb")]
 [assembly: AssemblyVersion("1.2.0.0")]
 [assembly: AssemblyFileVersion("1.2.0.0")]
-[assembly: MelonInfo(typeof(DurableMaintainance.DurableMaintainance), "DurableMaintainance", "1.2", "OceanMan")]
+[assembly: MelonInfo(typeof(DurableMaintainance.DurableMaintainance), "DurableMaintainance", "1.2.0", "OceanMan")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
